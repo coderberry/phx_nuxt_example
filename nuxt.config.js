@@ -43,5 +43,9 @@ module.exports = {
 
   generate: {
     dir: path.resolve(__dirname, './priv/static')
-  }
+  },
+
+  plugins: [
+    '~/plugins/sockets'
+  ]
 }

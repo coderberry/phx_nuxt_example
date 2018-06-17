@@ -14,7 +14,7 @@ defmodule PhxNuxtExampleWeb.Router do
   end
 
   scope "/", PhxNuxtExampleWeb do
-    pipe_through(:browser)
+    pipe_through(:api)
     get("/*path", PageController, :index)
   end
 
